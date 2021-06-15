@@ -1,2 +1,5 @@
 sudo npm install -g node-firestore-import-export 
 firestore-export -a payerPanelAPIKey.json -b fromFirestore.json 
+firestore-export -a payerPanelAPIKey.json -b forFirestore.json 
+
+// make sure the forfirestore file has all json data enclosed in: { "__collections__" : <json data> }
