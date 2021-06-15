@@ -1,0 +1,2 @@
+sudo npm install -g node-firestore-import-export 
+firestore-export -a payerPanelAPIKey.json -b fromFirestore.json 
